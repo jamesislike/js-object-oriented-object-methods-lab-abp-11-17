@@ -6,8 +6,8 @@ function BoardMember (name, homeState,training){
   //this.veto = function(){   annonomous function - used for every Object and it is not reccomended
 
 
-function veto () {
-  returns `No, I must disagree`
+BoardMember.prototype.veto = {
+  console.log(`No, I must disagree`)
 }
 
 BoardMember.prototype.doCharity = function(){
