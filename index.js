@@ -3,10 +3,10 @@ function BoardMember (name, homeState,training){
   this.homeState = homeState
   this.training = training
 }
-  //this.veto = function(){   annonomous function - used for every obmect and it is not reccomended
+  //this.veto = function(){   annonomous function - used for every Object and it is not reccomended
 
 
-BoardMember.prototype.veto = function(){
+function veto () {
   returns `No, I must disagree`
 }
 
