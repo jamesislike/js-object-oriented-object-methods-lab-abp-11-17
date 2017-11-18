@@ -5,6 +5,9 @@ function BoardMember (name, homeState,training){
   this.veto = function(){
     return `No, I must disagree`
   }
+  this.doCharity = function(){
+    `I like to help people.`
+  }
 }
   //this.veto = function(){   annonomous function - used for every Object and it is not reccomended
 
